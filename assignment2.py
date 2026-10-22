@@ -57,7 +57,7 @@ for s in criteria:
     df[f"P_success_s={s}"] = results[s]
 
 # Save CSV
-csv_path = "/mnt/data/secretary_problem_results.csv"
+csv_path = "secretary_problem_results.csv"
 df.to_csv(csv_path, index=False)
 
 # Find empirical optima
@@ -73,7 +73,7 @@ for s in criteria:
     })
 
 summary_df = pd.DataFrame(summary)
-summary_path = "/mnt/data/secretary_problem_optima.csv"
+summary_path = "secretary_problem_optima.csv"
 summary_df.to_csv(summary_path, index=False)
 
 # Plot all four curves together
@@ -90,7 +90,7 @@ plt.grid(True, alpha=0.3)
 plt.legend()
 plt.tight_layout()
 
-plot_path = "/mnt/data/secretary_problem_success_rates.png"
+plot_path = "secretary_problem_success_rates.png"
 plt.savefig(plot_path, dpi=200)
 plt.show()
 
