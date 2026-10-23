@@ -2,7 +2,7 @@
 
 A Python-based Monte Carlo simulation that studies the classical Secretary Problem and estimates the probability of selecting one of the top-ranked candidates under different selection strategies.
 
-## 📌 Project Overview
+## 📌 Assignment Overview
 
 The Secretary Problem is a decision-making problem in which candidates are evaluated one at a time. The goal is to select a strong candidate without being able to return to previously rejected candidates.
 
